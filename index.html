@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramadan Mubarak, Numaira!</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sigmar&display=swap');
+        /* Responsive and Aesthetic Styling */
+        body {
+
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to bottom, #0c0f26, #1a1f4d);
+            color: white;
+            text-align: center;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-shadow: 0 0 15px #fff;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            padding: 0 15px;
+        }
+
+        .revealBtn {
+            padding: 12px 20px;
+            font-size: 1.2em;
+            background-color: #ffd700;
+            border: none;
+            color: #000;
+            cursor: pointer;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            width: 80%;
+            max-width: 250px;
+            transition: background 0.3s ease;
+        }
+
+        .revealBtn:hover {
+            background-color: #ffcc00;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 500px;
+        }
+
+        /* Background Video */
+        .back-video {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        /* Crescent Moon */
+        .moon {
+            width: 80px;
+            height: 80px;
+            background: radial-gradient(circle, rgba(255,255,255,0.9) 30%, rgba(255,255,255,0) 60%);
+            border-radius: 50%;
+            position: absolute;
+            top: 8%;
+            left: 8%;
+            box-shadow: 0 0 15px #fff;
+        }
+
+        /* Floating Lanterns */
+        .lantern {
+            width: 40px;
+            position: absolute;
+            animation: floatLanterns 5s infinite alternate ease-in-out;
+        }
+        @keyframes floatLanterns {
+            0% { transform: translateY(0); opacity: 0.8; }
+            100% { transform: translateY(-20px); opacity: 1; }
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            .moon {
+                width: 60px;
+                height: 60px;
+            }
+            .lantern {
+                width: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <video autoplay loop muted playsinline class="back-video">
+        <source src="media/Bg-video-1.mp4" type="video/mp4">
+    </video>
+
+    <div class="moon"></div>
+
+    <!-- Floating Lanterns -->
+    <img src="media/l-LAMP.png" class="lantern" style="top: 20%; left: 15%;">
+    <img src="media/l-LAMP.png" class="lantern" style="top: 40%; left: 50%;">
+    <img src="media/l-LAMP.png" class="lantern" style="top: 60%; left: 80%;">
+    <img src="media/l-LAMP.png" class="lantern" style="top: 800%; left: 20%;">
+    <img src="media/l-LAMP.png" class="lantern" style="top: 100%; left: 40%;">
+
+    <div class="container">
+        <h1>Ramadan Mubarak, <br> Numaira! &ensp;✨🌙📿</h1>
+        <br>
+        <p>May this holy month bring you peace, happiness, and countless blessings.</p>
+        <br>
+        <a href="new.html" class="revealBtn">Open Ramadan Card</a>
+    </div>
+</body>
+</html>
