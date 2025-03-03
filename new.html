@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramadan Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:wght@100;300;400;500;700;900&family=Sigmar&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Noto+Nastaliq+Urdu:wght@700&family=Sigmar&display=swap');
+        body {
+            font-family: "League Spartan", sans-serif;
+            text-align: center;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+           
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .moon-container {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .moon-container img {
+            width: 80px;
+        }
+        .image-with-text {
+            text-align: center;
+            background-color: #007bff;
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+        }
+        .image-with-text img {
+            width: 90%;
+            max-width: 350px;
+            border-radius: 10px;
+        }
+        .intro-text {
+            font-size: 16px;
+            padding: 15px;
+            max-width: 90%;
+            margin: auto;
+            line-height: 1.6;
+        }
+        .ramadan-activities {
+            font-family: "sigmar" , serif;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .ramadan-activities h2 {
+            color: gold;
+            font-size: 32px;
+        }
+        .activities-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            text-align: center;
+        }
+        .activity img {
+            width: 80px;
+            border-radius: 8px;
+        }
+        .dua-section {
+            background: #fffae6;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .dua-section p {
+            font-size: 18px;
+            font-family: "Noto Nastaliq Urdu", serif;
+            font-weight: 700;
+        }
+        .prayer-timings {
+            background: #007bff;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+        }
+        .namaz-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .namaz-item img {
+            width: 60px;
+            border-radius: 8px;
+        }
+        .n-t-p {
+            font-family: "sigmar", serif;
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+        @media (max-width: 768px) {
+            .activities-container {
+                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            }
+            .n-t-p {
+                font-family: "sigmar", serif;
+                font-size: 1.2rem;
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="moon-container">
+            <img src="media/R-Moon.png" alt="Ramadan Moon">
+        </div>
+        <div class="image-with-text">
+            <img src="media/R-text.png" alt="Ramadan Mubarak">
+            <h2>Ramadan Mubarak - A Month of Blessings</h2>
+        </div>
+        <p class="intro-text">
+            <h2>Wishing Numaira a Happy Ramadan</h2>
+            Ramadan is a holy month of fasting, prayer, and reflection. Strengthen your connection with Allah by performing good deeds and following the teachings of Islam.
+        </p>
+        <section class="dua-section">
+            <p style="
+            font-family: Amiri Quran, serif;
+            font-weight: 700;
+            font-style: normal;">اللَّهُمَّ بَارِكْ لَنَا فِي رَجَبٍ وَشَعْبَانَ وَبَلِّغْنَا رَمَضَانَ</p>
+            <p style="font-family: league spartan ,serif;">"O Allah, bless us in Rajab and Sha’ban, and allow us to reach Ramadan."</p>
+        </section>
+        <section class="ramadan-activities">
+            <h2>Things Mehru Should Do in Ramadan</h2>
+            <div class="activities-container">
+                <div class="activity"><img src="media/P-1.png" alt="Praying"><p>Make up all Fasts</p></div>
+                <div class="activity"><img src="media/p-2.png" alt="Reading Quran"><p>Bye bye CAFFEINE</p></div>
+                <div class="activity"><img src="media/p-3.png" alt="Healthy Eating"><p>Eat Healthy & Moderate</p></div>
+                <div class="activity"><img src="media/p-4.png" alt="Tahajjud"><p>Wake up for Tahajjud</p></div>
+                <div class="activity"><img src="media/p-6.png" alt="Charity"><p>Give charity and help the needy</p></div>
+                <div class="activity"><img src="media/p-7.png" alt="Prayers"><p>Perform 5 daily prayers</p></div>
+            </div>
+        </section>
+        <section class="dua-section">
+            <p style="
+            font-family: Amiri Quran, serif;
+            font-weight: 700;
+            font-style: normal;">شَهْرُ رَمَضَانَ ٱلَّذِىٓ أُنزِلَ فِيهِ ٱلْقُرْءَانُ هُدًۭى لِّلنَّاسِ وَبَيِّنَـٰتٍۢ مِّنَ ٱلْهُدَىٰ وَٱلْفُرْقَانِ</p>
+            <p style="font-family: league spartan ,serif;" >"The month of Ramadan is the one in which the Quran was revealed as guidance for mankind and clear proofs of guidance and criterion (between right and wrong).""</p>
+        </section>
+        <section class="prayer-timings">
+            <h2>Ramadan Namaz Timings in Islamabad</h2>
+            <div class="namaz-container">
+                <div class="namaz-item"><img src="media/n-1.png"><p class="n-t-p">5:12 AM</p></div>
+                <div class="namaz-item"><img src="media/n-2.png"><p class="n-t-p">12:21 PM</p></div>
+                <div class="namaz-item"><img src="media/n-3.png"><p class="n-t-p">4:26 PM</p></div>
+                <div class="namaz-item"><img src="media/n-4.png"><p class="n-t-p">6:07 PM</p></div>
+                <div class="namaz-item"><img src="media/n-5-1.png"><p class="n-t-p">7:30 PM</p></div>
+            </div>
+        </section><section class="dua-section">
+            
+            <p style="font-family: Amiri Quran, serif;
+            font-weight: 700;
+            font-style: normal;
+            ">يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ</p>
+            <p style="font-family: league spartan ,serif;">"Allah intends ease for you, not hardship."</p>
+        </section>
+        
+    </div>
+    <div>
+        <img src="media/F-masjid.png" alt="masjid" class="mosque-image" style="width: 100%; padding-right: 0%; gap: 0%;display: flex;">
+    </div>
+    <div> <p> <span style="color: red;"> pov</span>&ensp;: sending to my fav homan </p></div>
+</body>
+</html>
+
+  
